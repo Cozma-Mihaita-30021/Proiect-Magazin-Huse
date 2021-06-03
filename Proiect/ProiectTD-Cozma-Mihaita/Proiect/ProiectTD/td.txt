@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "nume": "Calut",
+        "pret": "23",
+        "culoare": "black",
+        "descriere": "Un calut dragut",
+        "varsta": "3-5 ani",
+        "material": "lemn",
+        "producator": "CosminToys",
+        "pentru": "baieti",
+        "pieseMici": "da"
+    },
+    {
+        "id": 2,
+        "nume": "Calut",
+        "pret": "23",
+        "culoare": "black",
+        "descriere": "Un calut dragut",
+        "varsta": "3-5 ani",
+        "material": "lemn",
+        "producator": "CosminToys",
+        "pentru": "baieti",
+        "pieseMici": "da"
+    },
+    {
+        "id": 3,
+        "nume": "Calut",
+        "pret": "23",
+        "culoare": "black",
+        "descriere": "Un calut dragut",
+        "varsta": "3-5 ani",
+        "material": "lemn",
+        "producator": "CosminToys",
+        "pentru": "fete",
+        "pieseMici": "nu"
+    }
+]
