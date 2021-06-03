@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <script type="text/javascript" src="libs/vue.js"></script>
+        <script type="text/javascript" src="libs/axios.js"></script>
+    </head>
+    <body>
+        <a href="index.html">Home</a>
+        <div id="update">
+            Actualizare jucarie cu id-ul: {{ id }} <br>
+            Nume: <input type="text" v-model="husa.nume">
+            <br>
+            <br>
+
+            Pret: <input type="text" v-model="husa.pret">
+            <br>
+            <br>
+            Culoare: <input type="text" v-model="husa.culoare">
+            <br>
+            <br>
+            Descriere: <input type="text" v-model="husa.descriere">
+            <br>
+            <br>
+            Design: <input type="text" v-model="husa.design">
+            <br>
+            <br>
+            Material: <input type="text" v-model="husa.material">
+            <br>
+            <br>
+            Producator: <input type="text" v-model="husa.producator">
+            <br>
+            <br>
+            Grad Protectie: <input type="text" v-model="husa.grad_protectie">
+
+            <button  v-on:click="update(husa.id)">Save</button>
+
+            <p>{{message}}</p>
+
+        </div>
+
+        <script src="src/update.js"></script>
+    </body>
+</html>
